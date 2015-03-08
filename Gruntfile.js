@@ -159,6 +159,7 @@ module.exports = function( grunt ) {
 			dist: {
 				options: {
 					baseUrl: "app/scripts",
+					mainConfigFile: "app/scripts/main.js",
 					name: "main",
 					include: "vendor/requirejs/require",
 					optimize : "uglify",
@@ -171,7 +172,6 @@ module.exports = function( grunt ) {
 						"SoundJS": "vendor/SoundJS/lib/soundjs-0.6.0.min"
 					}
 				},
-				mainConfigFile: "app/scripts/site/main.js"
 			}
 		},
 
