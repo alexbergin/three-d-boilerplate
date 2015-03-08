@@ -13,8 +13,7 @@ The source files that compile into html/css/js can be found in `src`.
 - `src/coffee` -> `app/scripts`
 - `src/mustache` -> `app/index.html`
 - `src/sass` -> `app/styles/main.css`
-- `src/fonts` -> `app/fonts/**`
-- `src/images` -> `app/images/**`
+- `src/assets/**` -> `app/**`
 
 ## The Full Monty
 
